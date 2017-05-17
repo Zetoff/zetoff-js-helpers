@@ -1,7 +1,11 @@
+import validateEmail from './validateEmail';
+
 const zJSHelpers = {
-  greet() {
-    return 'hello';
-  }
+  validateEmail,
 };
+
+export {
+  validateEmail
+}
 
 export default zJSHelpers;

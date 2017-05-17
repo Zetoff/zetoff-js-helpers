@@ -1,14 +1,17 @@
 import validateEmail from './validateEmail';
 import nameFromEmail from './nameFromEmail';
+import naturalJoin from './naturalJoin';
 
 const zJSHelpers = {
   validateEmail,
-  nameFromEmail
+  nameFromEmail,
+  naturalJoin,
 };
 
 export {
   validateEmail,
-  nameFromEmail
+  nameFromEmail,
+  naturalJoin,
 }
 
 export default zJSHelpers;

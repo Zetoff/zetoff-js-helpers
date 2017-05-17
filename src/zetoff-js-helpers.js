@@ -1,7 +1,17 @@
+import validateEmail from './validateEmail';
+import nameFromEmail from './nameFromEmail';
+import naturalJoin from './naturalJoin';
+
 const zJSHelpers = {
-  greet() {
-    return 'hello';
-  }
+  validateEmail,
+  nameFromEmail,
+  naturalJoin,
 };
+
+export {
+  validateEmail,
+  nameFromEmail,
+  naturalJoin,
+}
 
 export default zJSHelpers;

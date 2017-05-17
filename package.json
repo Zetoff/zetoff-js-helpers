@@ -1,6 +1,6 @@
 {
   "name": "zetoff-js-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Commonly used helpers in Zetoff",
   "main": "dist/zetoff-js-helpers.js",
   "scripts": {
@@ -53,5 +53,8 @@
   "babelBoilerplateOptions": {
     "entryFileName": "zetoff-js-helpers.js",
     "mainVarName": "zJSHelpers"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }

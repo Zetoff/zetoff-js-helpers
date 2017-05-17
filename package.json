@@ -53,5 +53,8 @@
   "babelBoilerplateOptions": {
     "entryFileName": "zetoff-js-helpers.js",
     "mainVarName": "zJSHelpers"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
